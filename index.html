@@ -7,34 +7,50 @@
 			{
 				background-color: #000000;
 			}
-			.teehee
+			.rotate
 			{
-				color: #FFFFFF;
-				font-size: 200px;
-				font-family: Calibri;
-				width: 300px;
-				position: absolute;
-				left: 50%;
-				top: 30%;
-				margin-top: -100px;
-				margin-left: -150px;
-				-moz-transform: rotate( 90deg );
-				-webkit-transform: rotate( 90deg );
-				-o-transform: rotate( 90deg );
-				-ms-transform: rotate( 90deg );
-				transform: rotate( 90deg );
+				-moz-transform: rotate( -90deg );
+				-webkit-transform: rotate( -90deg );
+				-o-transform: rotate( -90deg );
+				-ms-transform: rotate( -90deg );
+				transform: rotate( -90deg );
 				-ms-transition: all 1s ease-in-out;
 				-webkit-transition: all 1s ease-in-out;
 				-o-transition: all 1s ease-in-out;
 				-moz-transition: all 1s ease-in-out;
 				transition: all 1s ease-in-out;
 			}
-			.teehee:hover
+			.rotate:hover
 			{
 				-moz-transform: rotate( 0deg );
 				-webkit-transform: rotate( 0deg );
 				-o-transform: rotate( 0deg );
 				-ms-transform: rotate( 0deg );
+			}
+			.the
+			{
+				color: #FFFFFF;
+				font-size: 200px;
+				font-family: Calibri;
+				position: absolute;
+
+				margin-top: -100px;
+				margin-left: -150px;
+			}
+			.shit
+			{
+				left: 30%;
+				top: 40%;
+			}
+			.we
+			{
+				left: 50%;
+				top: 40%;
+			}
+			.do
+			{
+				left: 67%;
+				top: 40%;
 			}
 		</style>
 		<script type="text/javascript">
@@ -43,7 +59,9 @@
 	</head>
 	<body>
 		<br />
-		<div class="teehee">shit<br>we<br>do</div>
+		<div class="rotate the shit">shit</div> <!--Really, do it.-->
+		<div class="rotate the we">we</div>
+		<div class="rotate the do">do</div>
 		<br />
 	</body>
 </html>
